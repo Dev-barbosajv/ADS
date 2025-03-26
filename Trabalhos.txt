@@ -1,0 +1,50 @@
+31/03 - Entregar NP1 ( pim - Projeto disciplinar mestral )
+    Trabalho por disciplina ( Utilizar informações ficticias ){
+        manual do pim ( final do semestre )
+        inserir matematica e estatistica ( linkadas no manual do pim )
+
+        Colocar numa folha = Intensão de trabalho ( pim )
+
+    }
+
+
+    //pim para semestre = Plataforma educacional ( cursos/ensino/video aula ) {
+        Linguagem em Python
+    }
+    //ONG{
+        Qual o tipo da ONG?( infantil/estudante de escola publica )
+        Escola publica real ou ficticia? ( Analisar dados refernete a escola ){
+            Quais escolas existem em tal area?
+            Quantos alunos? ( calculo em matematica/excel )
+                meninos ou meninas? ( %meninos %meninas )
+            Qual faixa etaria? ( 14 => completo / 15 => proximo )
+            Media de nota dos alunos? Média escolar?
+
+            Desses alunos, pesquisar renda familiar? Dados referentes ao ambiente ( lar )? periferia/cohab/bairro?
+            Utilizar alguma forma de marketing para ganhar a oportunidade da escola{
+                "Nossas aulas sao para alunos de %media, de facil acesso e lecionados por profissionais"(?)
+                Ofertar materias ( com logica )
+            }
+        }
+    }
+    // Cursos Básicos {
+        Linguagem em Python
+        Cybersegurança
+        Pensamento logico computacional 
+    }
+
+    // Analise de Desempenho por aluno dentro da plataforma.
+    //Numero de Acessos ( analisar os acessos diarios )
+    //Tempo medio de uso
+    //Idade do Usuarios
+    //Media Moda e Mediana ( nota )
+
+
+**Colocar nome, RA e turma.
+
+
+
+
+
+1.6 Ativadades 
+4 Paragrafo

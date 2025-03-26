@@ -1,0 +1,74 @@
+    Funções Afim
+
+    Angular e linear ( pesquisar )
+
+
+    A função gasto no gráfico
+
+
+
+    Introdução a estatistica descritiva{
+        De acordo com Crespo ( 2009 ), a estatistica é uma parte da matematica aplicada que fornece metodos para a coleta, a organização, a descrição, a analise e a interpretação de dados, e para a utilização desses recursos na tomada de decisões.
+        {
+            Conhecimento [ compreensao da informação ] => informação [ Dados analisados valor agregado ] => Dados [ Publico de diferentes fontes ]
+        }
+
+        Para isso é utilizado base em levantamento de Dados:
+
+        "De cada dez empresas, seis fecham antes de completar 5 anos, aponta IBGE."
+
+        A ciencia de dados é uma area interdisplicinar que combina estatistica, programacao, aprendizado de maquina e outros conhecimentos especificos para extrair informações uteis e tomar decisões com base em grandes volumes de dados.
+
+        **Engenherios no inicio da evolução DataScience começaram a migra para a Programação/DevOps.
+
+
+        A estatistica é frequentemente dividia em duas areas principais:
+        a estatisitica descritiva e a probabilidade ( estatistica indutiva/inferencia esta dentro )
+        
+        *Descritiva é colher dados e analisar com base dita dentro dos dados:
+        ex= media da nota, faixa etaria, tudo que for dado colhido com base em fatos.
+            Calcular os dados e ter uma media do resultado geral.
+
+        **indutiva ou Inferencia é quando temos uma amostra para analisar, separar e reduzir com base nos fatos de acordo com o calculo ou probabilidade descrita dentro da analise.
+            Dedução com base na amostra para tentar entender a grande massa, tendo uma margem de erro.{
+                PIB/IBGE sao grandes exemplos.
+            }
+            É utilizado calculos e estatisticas para chegar a um resultado claro com base na pesquisa/analise/dados concretos.
+
+                1 . Obersavação
+                2 . Pergunta
+                3 . Pesquisa 
+                4 . Hipotese
+                5 . Experimento 
+                6 . Analise de Dados
+                7 . Conclusão
+
+                **Muito utilizado em analise de dados, estastisticas, desenvolvimento infundi.
+
+
+        **População é a coleção completa de todos os elementos ( ou individuos ) que interessam para a coleta de dados.
+
+        Probabeilidade sao calculos com maior diferencial, tendo varias deduções até alcançar o resultado indutivo/inferenciado.
+
+        Dados brutos e rol{
+            Dados brutos sao uma sequencia de valores não organizados, geralmente obtidos da observação direta de um fenomeno. Dados brutos, portanto, sao os dados da forma que sao obtidos, sem nenhum tratamento ou organização.
+                [ Vide imagem: Peso ao nascer de nascidos vivos, em quilogramas ]
+                Rol = uma sigla em ingles ( organizar em ordem decrescente ou crescente )
+            
+        Variaveis quantitativas e variaveis qualitativas ( ou categóricas ).
+            *Qualitativas nao pode ser operadas algebricamente. ( também chamadas de categoricas )
+
+            *Quantitativas podem ser operadas algebricamente.
+
+        }
+
+    }
+
+Amplitude em estatisticas descritivas ( pesquisar )
+Media de todos valores => soma de todos os valores e dividir pelo numero ( quantitade/elementos )
+
+
+calculo de media ( exemplo disciplinar ) utilizando equação
+
+\x =1.3+2.6+3x = [...] x = 7
+       1+2+3

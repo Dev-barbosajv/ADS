@@ -1,0 +1,103 @@
+    Infraestrutura Computacional{
+
+        \\Divisão no Sistema Binário[
+
+        ]
+
+        \\Cheksum{
+            Correçao/analise de dados/comparação de sinal.
+            ex:
+            Dados a serem transmitidos: 1010100100111001 ( 16bits ) pelo Roteador
+            8 primeiros bits sao separados, os 8 bits restantes sao colocados a baixo
+
+                10101001
+                00111001
+
+            Neste caso é necessario a soma de binario:
+
+            Soma de binario feita pelo transmissor:
+
+                11100010
+            
+            Após, é feita a inversao de valores:
+
+                00011101
+
+            Como resultado, é transmitido os codigo junto do resultado invertido:
+
+                1010100100111001 00011101
+
+            Quando os dados sao recebidos por cada Roteador, ele vai efetuar a operação pegando os 16bits e dividindo por 2, porém agora também ira somar com o valor invertido:
+
+
+                10101001
+                00111001
+                00011101
+
+            Sendo o resultado:
+
+                11111111
+
+            Sendo feita a inversao novamente:
+
+                00000000 
+
+            Sendo resultado 0, esta tudo ok.
+
+        }
+
+        Método de Paridade para Detecção de Erros.
+
+    }
+
+*Transmissao de Dados é passado primeiro pelo sinal de radio ( Antena por Antena seguindo o Trajeto ) => Servidor => e retorna para o destinátario.
+*Transmissor e Receptor?? Wireless, Radio ou WIfi[
+    Nomeados por Codigos Binarios.
+    TCCP ( pesquisar )
+
+]
+
+**Dados sao perdidos durante a transmissao/envio, sendo minimos Bits.
+**Soma de binario( Pesquisar ) => 1+1=10
+
+
+================================================================================================
+
+A3
+
+°Estrutura de um computador
+°Maquina de von Newmann x Harvard
+°Estrutura do inversao
+°Ciclos de clock
+
+Componentes estruturais principais{
+    Unidade central de processamento ( CPU ) 
+    Memória Principal ( Memoria RAM )
+    Entrada/Saida ( E/S ) 
+    Interconexão do Sistema ( Barramento => principal barramento é a placa mãe ) [
+        Responsavel pela intercomunicçaão entre todos os componentes.
+    ]
+
+}
+
+Unidade logica e aritmetica ( ULA ou ALU ) realiza as funções de processamento de dados do computador
+
+Maquina de VOn Neumann{
+    Registrador de buffer de memoria: contem uma palavra a ser armazenada na memoria ou enviada a unidade. Ou é usada para receber uma palavra da memoria ou uma unidade de E/S.
+
+    Registrador de endereço da mamória ( MAR ): especifica o endereço de uma posição na memoria.
+
+    Registrador de Instrução ( IR ): contem o opcode ( codigo de operação ) de 8 bits da instrução que está sendo executada.
+
+    Registrador de buffer de instrução ( IBR ): empregado para manter temporariamente a proxima instrução a ser executada.
+
+    Contador do programa ( PC do ingles program counter ): [ responsavel para dizer onde as instruções estão ]
+
+    Acumulador ( AC ) e quociente multiplicador ( MQ ): Responsavel pelos calculos
+
+
+}
+
+
+
+**Dentro da CPU é encontra os registradores, ALU e unidade de controle.
