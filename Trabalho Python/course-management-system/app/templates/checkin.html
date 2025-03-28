@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Check-In</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Check-In</h1>
+        <form action="{{ url_for('checkin') }}" method="POST">
+            <div class="form-group">
+                <label for="user_id">User ID:</label>
+                <input type="text" id="user_id" name="user_id" required>
+            </div>
+            <div class="form-group">
+                <label for="checkin_time">Check-In Time:</label>
+                <input type="datetime-local" id="checkin_time" name="checkin_time" required>
+            </div>
+            <button type="submit">Check In</button>
+        </form>
+    </div>
+</body>
+</html>

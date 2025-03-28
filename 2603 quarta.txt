@@ -1,0 +1,38 @@
+Técnologia da Informação e Comunicação.
+
+
+Big Data + Web + Distruibuição{
+    Aplicações Big Data [
+        Facebook, Amazon, Google, X ( Antigo twitter ), whatsapp...
+
+        O que é importante para o BD:
+            Volume: enorme volume de dados gerados.
+            Velocidade: Velocidade com que os dados são gerados, Capacidade para processar esses dados.
+            Variedade: Diversidades das fontes, formatos, estruturas dos dados a serem integrados.
+            Valor: Valor e utilidade dos dados.
+            Veracidade: Certeza sobre o dado processado.[ Todo dado precisa ter uma fonte confiavel ]
+
+    ]
+
+    Federações de bancos de dados em larga escala[
+
+    ]
+
+    Computação Ambigua/Fauna Computacional: 
+
+    ex: Quando vc vai ao mercador, e precisa passar pelo caixa, ela passa por um computador teus produtos e confirmar/analisar teus dados ( ou do produto ). Tudo que é considerado maquinas computacionais ( processador, memoria e hd ) é considerado como computador, mesmo que não seja de utilidade domestica.
+
+    IoT: Dispositivos que fazem leitura de dados, depois coletar os dados para ser analisados e por ultimo reproduzir ou transmistir para outro sistema ou para si mesmo. 
+        O servidor utilizado para IoT é passivo, ele apenas recebe os dados. 
+
+
+Um celular não pode ser considerado exatamente como um computador, porém é proximo por sua arquitetura.
+
+}
+
+**Entrega do trabalho 31/03, porém 31 é segunda feira, entao teriamos entregar antecendo a aula de quinta ( 03/04 ).
+**No teams, uma pessoa do grupo entrega.
+**Capa logo unip, segunda pagina nome e ra dos integrantes do grupo.
+
+*Se tirar 5, você zera na tarefa.
+
