@@ -72,22 +72,45 @@ def login():
         else:
             print("Opção inválida. Tente novamente.")
 
+def listar_cursos():
+        """Função para listar todos os cursos disponíveis."""
+        while True:
+            print("\n=== Listar Todos os Cursos ===")
+            print("1. Curso de Python")
+            print("2. Curso de Algoritimos")
+            print("3. Cybersecurity")
+            print("4. Desenvolvimento Web")
+            print("0. Voltar ao Menu Principal")
+            escolha = input("Escolha uma opção: ").strip()
+            if escolha == "1":
+                print("Curso de Python: Aprenda a programar em Python do básico ao avançado.")
+            elif escolha == "2":
+                print("Curso de Algoritimos: Entenda os fundamentos dos algoritmos e estruturas de dados.")
+            elif escolha == "3":
+                print("Curso de Cybersecurity: Aprenda sobre segurança cibernética e proteção de dados.")
+            elif escolha == "4":
+                print("Curso de Desenvolvimento Web: Crie sites e aplicações web do zero.")
+            elif escolha == "0":
+                print("Voltando ao Menu Principal...")
+                break
+            else:
+                print("Opção inválida. Tente novamente.")
+
 def menu_cursos():
     """Função para exibir o submenu de cursos disponíveis."""
     while True:
         print("\n=== Menu de Cursos Disponíveis ===")
         print("1. Listar Todos os Cursos")
         print("2. Buscar Curso por Nome")
-        print("3. Voltar ao Menu Principal")
+        print("0. Voltar ao Menu Principal")
         escolha = input("Escolha uma opção: ").strip()
         if escolha == "1":
             print("Listando todos os cursos disponíveis...")
-            # Adicione a lógica para listar os cursos aqui
+            listar_cursos()
         elif escolha == "2":
             curso_nome = input("Digite o nome do curso que deseja buscar: ").strip()
             print(f"Buscando informações sobre o curso: {curso_nome}...")
-            # Adicione a lógica para buscar o curso aqui
-        elif escolha == "3":
+        elif escolha == "0":
             print("Voltando ao Menu Principal...")
             break
         else:
@@ -105,8 +128,49 @@ def cadastro_cursos():
 def ultimo_curso_assistido():
     """Função para exibir o último curso assistido."""
     print("=== Último Curso Assistido ===")
-    # Aqui você pode adicionar a lógica para exibir o último curso assistido
     print("Nenhum curso assistido registrado.")
+
+def security():
+    while True:
+        """Função para exibir informações de segurança (LGPD)."""
+        print("=== Informações de Segurança (LGPD) ===")
+        print("\n")
+        print("Este sistema respeita a Lei Geral de Proteção de Dados (LGPD).")
+        print("Seus dados pessoais estão protegidos e não serão compartilhados sem sua autorização.")
+        print("Para mais informações, consulte nossa política de privacidade.")
+        print("Caso tenha alguma dúvida, entre em contato com o suporte.")
+        print("\n")
+        print("=== Fim das Informações de Segurança (LGPD) ===")
+        print("1. Próxima página")
+        print("0. Voltar ao Menu Principal")
+        escolha = input("Escolha uma opção: ").strip()
+        if escolha == "1":
+            security1()
+        elif escolha == "0":
+            print("Voltando ao Menu Principal...")
+            break
+        else:
+            print("Opção inválida. Tente novamente.")
+
+def security1():
+    while True:
+        """Função para exibir informações de segurança (LGPD) - Página 1."""
+        print("=== Informações de Segurança (LGPD) - Página 1 ===")
+        print("\n")
+        print("A segurança de dados é essencial para proteger informações pessoais e acadêmicas em plataformas educacionais. \nA LGPD (Lei Geral de Proteção de Dados) regula o uso de dados pessoais, garantindo direitos como acesso, correção e exclusão de informações.")
+        print("A LGPD exige que plataformas adotem medidas de segurança, como criptografia e controle de acesso, para proteger os dados dos usuários. \nEssas práticas ajudam a criar um ambiente digital mais seguro e confiável.")
+        print("Boas práticas incluem o uso de senhas fortes, autenticação de dois fatores (2FA) e evitar o compartilhamento de credenciais. \nAlém disso, é importante estar ciente de como os dados são coletados, armazenados e utilizados pelas instituições.")
+        print("A segurança de dados é uma responsabilidade compartilhada entre usuários e instituições. \nMantenha-se informado sobre as melhores práticas e proteja suas informações pessoais.")
+        print("Cuidado com ataques de phishing, evitando clicar em links suspeitos. Sempre faça logout em dispositivos compartilhados \ne leia as políticas de privacidade antes de aceitar termos.")
+        print("\n")
+        print("=== Fim das Informações de Segurança (LGPD) - Página 1 ===")
+        print("0. Voltar ao Menu Principal")
+        escolha = input("Escolha uma opção: ").strip()
+        if escolha == "0":
+            break
+        else:
+            print("Opção inválida. Tente novamente.")
+
 
 
 
@@ -124,16 +188,12 @@ def menu():
     if escolha == "1":
         menu_cursos()
         print("Menu de Cursos Disponíveis")
-        # Aqui você pode adicionar a lógica para exibir os cursos disponíveis
     elif escolha == "2":
         cadastro_cursos()
-        # Aqui você pode adicionar a lógica para solicitar o cadastro de cursos
     elif escolha == "3":
-        print("Último Curso Assistido")
-        # Aqui você pode adicionar a lógica para exibir o último curso assistido
+        ultimo_curso_assistido()
     elif escolha == "4":
-        print("Informações de Segurança (LGPD)")
-        # Aqui você pode adicionar a lógica para exibir informações de segurança
+        security()
     elif escolha == "0":
         print("Saindo...")
         exit()
