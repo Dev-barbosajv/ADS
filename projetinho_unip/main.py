@@ -8,7 +8,7 @@ import os
 
 def main():
 
-    usuario_logado = "amind"
+    usuario_logado = "amin"
     print("=== Página de Login ===")
     print("1. Fazer Login")
     print("2. Cadastrar Novo Usuário")
@@ -34,7 +34,7 @@ def main():
     if escolha == "3":
         exit()
 
-        
+
     print("=== Menu Principal ===")
     print("1. Menu de Cursos Disponíveis")
     print("2. Solicitar Cadastro de Cursos")
